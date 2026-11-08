@@ -1,0 +1,270 @@
+@media (max-width: 900px) {
+  .container2 {
+    grid-template-columns: 1fr 1fr;
+    margin-top: 90px;
+  }
+  .photo {
+    margin: 29px auto;
+  }
+}
+
+@media (max-width: 850px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+  }
+  .menu-box {
+    margin: 45px auto;
+  }
+}
+
+@media (max-width: 782px) {
+  .para-div {
+    line-height: 50px;
+  }
+  .hero p {
+    display: none;
+  }
+
+  .h1-hero {
+    font-size: 20px;
+  }
+  .container3 {
+    grid-template-columns: 1fr;
+    gap: 80px;
+  }
+}
+
+@media (max-width: 650px) {
+  .container5 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-ul2 {
+    display: none;
+  }
+  .footer-ul3 {
+    white-space: nowrap;
+  }
+  .container4 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .call {
+    padding-bottom: 129px;
+  }
+
+  .input {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 250px;
+    margin-top: 15px;
+  }
+  .form {
+    margin-top: 40px;
+  }
+  #opintion {
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto;
+    width: 250px;
+  }
+  .send {
+    margin-left: 50%;
+    transform: translate(-50%);
+  }
+
+  .call-ul {
+    margin-top: 40px;
+    margin-right: -20%;
+  }
+  .The-end {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 630px) {
+  .nav-header {
+    position: fixed;
+    display: none;
+  }
+  header {
+    justify-content: space-around;
+  }
+  header h3 {
+    margin-right: 100px;
+  }
+  .hero-img {
+    min-height: 600;
+  }
+  #menu-btn {
+    display: none;
+  }
+  .label-btn {
+    margin-right: 50px;
+    display: block;
+    font-size: 22px;
+    color: white;
+  }
+  .label-btn:hover {
+    cursor: pointer;
+    transition:
+      0.3s,
+      opacity 0.1s;
+    color: rgb(167, 77, 4);
+  }
+  .label-btn:active {
+    opacity: 0.1;
+  }
+  #menu-btn:checked ~ .nav-header {
+    display: flex;
+    position: fixed;
+    top: 74px;
+    background-color: black;
+    left: 0;
+    right: 0;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 30px;
+    transition: 0.3s;
+    flex-direction: column;
+  }
+  .para-div {
+    top: 40%;
+    line-height: 50px;
+  }
+  .h3-hero {
+    margin-bottom: -30px;
+    font-size: 13px;
+  }
+
+  .h1-hero {
+    background: transparent;
+    font-size: 18px;
+  }
+
+  .hero p {
+    line-height: 25px;
+    font-size: 12px;
+    font-weight: bolder;
+  }
+
+  .hero-btn {
+    font-size: 15px;
+  }
+
+  .hero p {
+    display: none;
+  }
+}
+
+@media (max-width: 629px) {
+  .grid-about {
+    flex-direction: column;
+    gap: 35px;
+  }
+  .about-parageraph {
+    width: 290px;
+  }
+  .container {
+    grid-template-columns: 1fr;
+    margin-top: 69px;
+  }
+  .menu-box {
+    margin: 45px auto;
+    padding-bottom: 30px;
+    line-height: 25px;
+  }
+  .container2 {
+    grid-template-columns: 1fr;
+  }
+  .photo {
+    width: 300px;
+  }
+  header {
+    height: 75px;
+  }
+}
+
+@media (max-width: 541px) {
+  .container5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+  .footer-ul1 {
+    margin-right: 19px;
+    margin-bottom: 20px;
+  }
+  .h1-hero {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-btn {
+    font-size: 10px;
+  }
+  .hero-btn2 {
+    font-size: 10px;
+  }
+  .para-div {
+    line-height: 30px;
+    top: 45%;
+  }
+  .h3-hero {
+    margin-bottom: -10px;
+  }
+}
+
+@media (max-width: 460px) {
+  .h1-hero {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 402px) {
+  .h1-hero {
+    white-space: nowrap;
+    font-size: 15px;
+  }
+  .h3-hero {
+    font-size: 10px;
+  }
+  .hero-btn,
+  .hero-btn2 {
+    font-size: 8px !important;
+  }
+  header {
+    height: 70px;
+  }
+  .nav-header {
+    top: 7px;
+  }
+  .view1 {
+    width: 300px;
+  }
+  #menu-btn:checked ~ .nav-header {
+    top: 69px;
+  }
+}
+
+@media (max-width: 340px) {
+  .call-ul {
+    margin-right: -19%;
+  }
+
+  .hero-img {
+    min-height: 310px;
+  }
+  header h3 {
+    font-size: 28px;
+  }
+  .photo {
+    width: 260px;
+  }
+  .view1 {
+    width: 280px;
+  }
+}
